@@ -16,14 +16,11 @@ Este é um projeto simples de **sistema de login** desenvolvido em **HTML5** com
 - Layout centralizado e adaptado ao tema escuro
 
 ## 📂 Estrutura do Projeto
-projeto-login/
-│── index.html
-│── style.css
-│── img/
+projeto-login/<br>
+│── index.html<br>
+│── style.css<br>
+│── img/<br>
 │ └── piaui.png
-
-bash
-Copy code
 
 ## 🖼️ Demonstração
 A tela de login possui um design simples e elegante, com centralização no viewport e aplicação de margens e espaçamentos automáticos via classes utilitárias do Bootstrap.
