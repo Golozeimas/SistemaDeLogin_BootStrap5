@@ -27,6 +27,15 @@
                         <label for="floatingInput">Senha</label>
                         <input type="password" class="form-control" id="floatingInput" placeholder="sua senha">
                     </div>
+                    <div class="form-check text-start my-3"> <!-- form-check para checagem do forms, text-start começa o texto a esquerda do elemento, e my-3
+                        adiciona um espaçamento externo encima e embaixo de 3-->
+                        <label for="flexCheckDefault"> Lembre-se de mim </label>
+                        <input type="checkbox" class="form-check-input" id="flexCheckDefault">
+                    </div>
+                    <button type="button"class="btn btn-primary w-100 py-2">
+                        Entrar
+                    </button>
+                    
                 </form>
     </main>
 
