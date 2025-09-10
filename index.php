@@ -12,18 +12,23 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" >
 </head>
-<body>
-    
-    <div class="d-flex align-items-center py-4 bg-body-tertiary">
-            <main class="w-100 m-autp">
-                <form action="">
-                    <img src="" class="m-4">
-                    <h1>Sead - login</h1>
-                    <input type="" placeholder="">
-                    <input type="" placeholder>
+<body class="d-flex align-items-center py-4 bg-body-tertiary">
+            
+    <main class="w-100 m-auto">
+                <form>
+                    <img src="https://www.pi.gov.br/wp-content/uploads/2024/11/cropped-favicon.jpg" class="mb-4" height="70">
+                    <h1 class="h3 mb-3 fw-normal">Sead - login</h1> <!-- usamos h1 para manter a semântica do projeto, enquanto o bootstrap transforma em h3, 
+                    e fw-normal define o peso da fonte-->
+                    <div class="form-floating">
+                        <label for="floatingInput">E-mail</label>
+                        <input type="email" class="form-control" id="floatingInput" placeholder="seu-email@gmail.com">
+                    </div>
+                    <div class="form-floating">
+                        <label for="floatingInput">Senha</label>
+                        <input type="password" class="form-control" id="floatingInput" placeholder="sua senha">
+                    </div>
                 </form>
-            </main>
-    </div>
+    </main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
